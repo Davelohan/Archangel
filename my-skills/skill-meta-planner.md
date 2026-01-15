@@ -1,6 +1,6 @@
 ---
 name: skill-meta-planner
-description: Orchestrate all skills using universal principles, ensuring outputs reflect them explicitly. Requires user confirmation before action.
+description: Orchestrate all skills using universal principles, ensuring outputs reflect them explicitly. Requires user confirmation before action. Lists all skills with absolute raw GitHub URLs for dynamic loading.
 ---
 
 # Skill Meta-Planner (Principle-Driven Orchestration)
@@ -17,6 +17,27 @@ Analyze all available skills and plan their coordinated use to address user requ
 6. **Structural Defense**: Countermeasures should escalate responsibility upward, not isolate the individual.
 7. **Governance Failure**: Failure to intervene or correct is a governance failure.
 8. **Limits of House Rules**: House rules cannot override rights, ethics, or law in any domain.
+
+## Available Skills (with absolute raw GitHub URLs)
+- **Catholic Canon Law**  
+  https://raw.githubusercontent.com/Davelohan/Archangel/main/my-skills/catholic-canon-law.md  
+  Purpose: Canon law analysis, rights, obligations, and procedures (CIC/CCEO)
+
+- **Religious Community Responsibilities (Ireland)**  
+  https://raw.githubusercontent.com/Davelohan/Archangel/main/my-skills/religious-community-responsibilities.md  
+  Purpose: Civil-law and human-rights duties of religious communities in all personal domains
+
+- **Coercion and Bullying Countermeasures**  
+  https://raw.githubusercontent.com/Davelohan/Archangel/main/my-skills/coercion-and-bullying-countermeasures.md  
+  Purpose: Identify and counter bullying, manipulative, and coercive tactics
+
+- **Canon Law Boundary Letter Generator**  
+  https://raw.githubusercontent.com/Davelohan/Archangel/main/my-skills/canon-law-boundary-letter-generator.md  
+  Purpose: Generate step-by-step recommendations and draft canonical letters for boundary-setting and documentation
+
+- **Skill Meta-Planner**  
+  https://raw.githubusercontent.com/Davelohan/Archangel/main/my-skills/skill-meta-planner.md  
+  Purpose: Scrutinize all skills and plan coordinated execution for user requests
 
 ## Step-by-Step Process
 1. **Skill Inventory**
