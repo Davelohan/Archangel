@@ -1,74 +1,64 @@
 ---
 name: canon-law-boundary-letter-generator
-description: Generate step-by-step recommendations and simple, short canonical letters for priests in religious societies. Analyze consequences for all parties, highlight key points, always output a draft letter or prompt for more details, and provide positive reinforcement.
+description: Generate step-by-step recommendations and canonical letters for priests facing any improper request regarding private, personal, or protected matters (medical, financial, reputational, personal history, conscience). Includes mandatory validity determination, leadership duty, ethical exposure, and user checkpoint.
 ---
 
-# Canon Law Boundary Letter Generator (Direct, Affirming, Highlighted)
+# Canon Law Boundary Letter Generator (Generalized, Principle-Driven)
 
 ## Purpose
-Help a Catholic priest write a clear, respectful letter to a superior. The letter sets boundaries, documents the situation, considers consequences for everyone involved, and affirms the priest's rights. The language is simple and direct. Key points are highlighted.
+Help a Catholic priest respond to any improper request for private, personal, or protected matters. The process is grounded in competence, formality, and leadership responsibility. Applies to medical, financial, reputational, personal history, or conscience-related matters.
 
-## Step-by-Step Recommendations
-1. **Read the Situation**
-   - Who asked? What was asked?
-   - Why is it a problem?
-2. **Check Authority**
-   - Only the superior can assign tasks.
-   - Others (colleagues, staff) **have no automatic entitlement** to give orders or demand private information.
-3. **Analyze Consequences**
-   - If someone acts wrongly, say what could happen:
-     - A medical director may be reported to the nursing authority for unethical behavior.
-     - A priest may be reported for breaking canon law.
-   - State this simply and factually.
-4. **List Relevant Canons**
-   - Name 2–4 canons that apply.
-   - Say what each canon means in short sentences.
-5. **Positive Reinforcement**
-   - Affirm the priest's right to refuse improper requests.
-   - State clearly: "You are within your rights to refuse. They have no right to make this request or repeat it."
+## Universal Steps
+1. **Situation Intake**
+   - Who made the request? What was requested? What category (private, personal, protected)?
+2. **User Checkpoint**
+   - Confirm you wish to proceed. Add any extra facts for inclusion.
+3. **Validity Determination**
+   - Assess request for competence (is the requester authorized?), formality (is the request in proper form?), and lawful basis.
+   - Explicitly state: Request is valid / defective / invalid due to lack of competence, form, or lawful basis.
+4. **Leadership Duty**
+   - State that responsibility for addressing improper requests lies with leadership, not the individual priest.
+5. **Ethical Exposure**
+   - Flag any role-based ethical risks (e.g., professional, canonical, legal) regardless of subject matter.
+6. **Relevant Canons**
+   - List 2–4 canons that apply, with short explanations.
+7. **Positive Reinforcement**
+   - Affirm the priest’s right to refuse improper requests. State clearly: "You are within your rights to refuse. They have no right to make this request or to repeat it."
    - Suggest: "Ask for all future requests to be made in writing."
-6. **Draft the Letter**
-   - Use short, clear sentences.
-   - Be respectful and grateful.
-   - Do not defend yourself. Do not explain personal matters.
-   - Focus on what canon law says and what the superior must do.
-   - Always include a draft letter to the superior, or if details are missing, prompt for more information.
-7. **Escalation**
+8. **Draft Letter**
+   - Use short, clear sentences. Be respectful. Focus on canon law, competence, and leadership duty. Always include a draft letter to the superior.
+9. **Escalation**
    - If the problem continues, show a short follow-up letter.
-   - Say you are still waiting for a reply and need clear guidance.
-8. **Final Blunt Assessment**
-   - At the end, state in plain terms if the request has no validity (e.g., "This demand has no validity.")
-   - Highlight key phrases (e.g., **NO AUTOMATIC ENTITLEMENT**).
+10. **Summary Assessment**
+    - Explicitly state: Request is valid / defective / invalid due to lack of competence, form, or lawful basis. Highlight key phrases (e.g., **NO AUTOMATIC ENTITLEMENT**).
 
 ## Output Format
-- Step-by-step recommendations (as above)
-- Draft letter to the superior (simple, ready to send)
+- Step-by-step recommendations
+- Draft letter to the superior
 - Follow-up letter template (if needed)
-- Final blunt assessment (highlighted)
+- Summary assessment
 
 ## Example Input
 "I am a priest and I have been asked by SOMEONE for the FOLLOWING."
 
 ## Example Output
 ### Step-by-step recommendations
-1. You were asked by [SOMEONE] to [DO SOMETHING].
-2. Only your superior can assign tasks. Others **have no automatic entitlement** to give you orders or demand private information.
-3. If [SOMEONE] is not your superior, this may be a violation. You may need to report this to [relevant authority].
-4. Relevant canons:
+1. You were asked by [SOMEONE] to [DO SOMETHING] (category: [private/personal/protected]).
+2. Confirmed to proceed. Additional facts: [user input].
+3. Validity: The request is **invalid** due to lack of competence and lawful basis. Only your superior can make such requests.
+4. Leadership Duty: It is the responsibility of leadership to address improper requests, not yours alone.
+5. Ethical Exposure: This request exposes [SOMEONE] to professional and canonical risk.
+6. Relevant canons:
    - Canon 618: Superiors must respect members.
    - Canon 619: Superiors must care for members.
    - Canon 221: You have the right to defend your rights.
-5. **You are within your rights to refuse. They have no right to make this request or to repeat it.**
-6. Ask for all future requests to be made in writing.
+7. **You are within your rights to refuse. They have no right to make this request or to repeat it.**
+8. Ask for all future requests to be made in writing.
 
 ### Draft letter to superior
 Dear [Superior],
 
-Thank you for your leadership and care for our community. I am grateful for my vocation and the chance to serve.
-
-I was asked by [SOMEONE] to [DO SOMETHING]. I want to follow canon law and respect proper procedures. My understanding is that only you, as my superior, can assign tasks or duties. Canon 618 and 619 say superiors must respect and care for members. Canon 221 says I have the right to defend my rights.
-
-Could you please confirm what canon law requires in this situation? I want to act correctly and in line with Church law.
+Thank you for your leadership. I was asked by [SOMEONE] to [DO SOMETHING] concerning [private/personal/protected] matters. My understanding is that only you, as my superior, have competence to make such requests. Canon 618 and 619 require respect and care for members. Canon 221 affirms my right to defend my rights. I believe this request is invalid due to lack of competence and lawful basis. Please confirm the correct procedure and address this matter as leadership responsibility.
 
 Thank you for your guidance.
 
@@ -78,12 +68,12 @@ Sincerely,
 ### Follow-up letter (if no reply)
 Dear [Superior],
 
-I wrote to you on [date] about a request from [SOMEONE]. I have not yet received a reply. I want to make sure I am following canon law and your guidance. Could you please advise me?
+I wrote to you on [date] about a request from [SOMEONE]. I have not yet received a reply. I want to ensure I am following canon law and your guidance. Could you please advise me?
 
 Thank you for your help.
 
 Sincerely,
 [Your Name]
 
-### Final assessment
-**This demand has NO VALIDITY. There is NO AUTOMATIC ENTITLEMENT for them to make this request. You are fully within your rights to refuse.**
+### Summary Assessment
+**This request is INVALID due to lack of competence and lawful basis. There is NO AUTOMATIC ENTITLEMENT for them to make this request. Leadership must address this.**
